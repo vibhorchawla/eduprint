@@ -1,4 +1,4 @@
-# EduPrint
+# Eduprintzzz
 
 Campus print & delivery website. Open `index.html` in a browser.
 
