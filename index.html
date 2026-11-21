@@ -146,8 +146,18 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
   .g3,.g4,form{grid-template-columns:1fr}
   .stats{gap:22px}
   .hero{padding-top:60px}
-  nav .btn{padding:10px 16px}
+  nav .wrap{height:62px;padding:0 14px;gap:8px}
+  .brand{font-size:1.1rem;gap:8px;min-width:0}
+  .brand img{width:30px;height:30px}
+  .navr{gap:8px;flex-shrink:0}
+  nav .btn{height:40px;padding:0 14px;font-size:.85rem;white-space:nowrap;box-shadow:none}
+  .burger{width:40px;height:40px;border-radius:10px;gap:4px}
+  .burger span{width:18px}
+  .burger.x span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+  .burger.x span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+  .mmenu{padding:4px 14px 14px}
 }
+@media(max-width:350px){nav .btn{padding:0 10px;font-size:.8rem}.brand{font-size:1rem}}
 </style>
 </head>
 <body>
